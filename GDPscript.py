@@ -1,11 +1,14 @@
+%matplotlib inline
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+print ("hello world")
 class DataProcessingScript:
     def __init__(self, file_path):
-        self.file_path = file_path
+        #self.file_path = file_path
+        self.file_path = r"C:\Users\Owner\GeneralDataProcessor"
         self.data = None
 
     def read_file(self):
